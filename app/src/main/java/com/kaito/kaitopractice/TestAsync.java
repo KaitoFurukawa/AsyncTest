@@ -21,7 +21,7 @@ import java.net.URL;
 
 public class TestAsync extends AsyncTask<String, String, String> {
 
-    private TextView text;
+
     private ResultListener listener;
 
     public TestAsync(ResultListener listener) {
